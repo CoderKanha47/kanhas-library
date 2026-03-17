@@ -1,16 +1,22 @@
-# React + Vite
+# 📚 Kanha's Library Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive Library UI built with **React** and **Tailwind CSS v4**. This project is part of my engineering portfolio, focusing on clean state management and interactive user experiences.
 
-Currently, two official plugins are available:
+## 🚀 Features
+* **Interactive Catalog:** Browse books with hover effects and real-time search.
+* **Payment Tracking:** View purchase types (Rental/Bought) and due dates via modals.
+* **Review System:** Submit book ratings and feedback through a controlled form.
+* **Responsive Design:** Optimized for mobile (tested on Samsung A73) and desktop.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+* **Frontend:** React.js (Hooks, State Management)
+* **Styling:** Tailwind CSS v4 (Utility-first, Glassmorphism)
+* **Future Integration:** n8n for automation & Supabase for DB.
 
-## React Compiler
+## 📸 Screenshots
+![Hero Section](link-to-your-screenshot-later)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🏗️ Setup Instructions
+1. Clone the repo: `git clone https://github.com/your-username/kanhas-library.git`
+2. Install dependencies: `npm install`
+3. Run locally: `npm run dev`
