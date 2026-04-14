@@ -86,7 +86,7 @@ function App() {
 
                 </div>
 
-                <button
+                <button 
                   onClick={() => setSelectedBook(recentlyBorrowed)}
                   className="bg-white border-2 border-blue-100 text-blue-600 px-6 py-2 rounded-full font-bold hover:bg-blue-50 transition-all cursor-pointer">View Payments</button>
               </div>
